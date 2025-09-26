@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from setup import setup_guardrails
 
-setup_guardrails()
+# setup_guardrails()
 
 # from guardrail.pii_detection_guardrails_ai import pii_detection_guardrails_ai
 from guardrail.pii_redaction_presidio import process_input_guardrail
